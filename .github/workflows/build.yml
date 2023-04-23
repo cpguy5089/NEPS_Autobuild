@@ -28,7 +28,7 @@ jobs:
  # EDIT NEVERMIND I KNOW WHAT I DID WRONG
       - name: Get it into the safe zone
         shell: cmd
-        run: move /y Release\NEPS.dll NEPS.dll
+        run: move /y Release\NEPS\NEPS.dll NEPS.dll
         
       - name: Upload Release Artifact
         uses: actions/upload-artifact@v2.2.3
